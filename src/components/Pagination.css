@@ -1,0 +1,48 @@
+.pagecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  .pagination {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
